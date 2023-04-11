@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    font-family: Cantarell;
+}
+
+.topbar {
+    padding: 17px;
+    background: #ddd;
+    margin: 0;
+    text-align: right;
+    border-bottom: 2px solid #aaa;
+    min-height: 27px;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+form label {
+    display: none;
+}
+
+form input, form select {
+    background: rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+form input:hover, form input:active, form select:hover, form select:active {
+    background: rgba(255,255,255,0.9);
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+form input[type=submit] {
+    cursor: pointer;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
+.content {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.content h1 {
+    font-size: 34px;
+}
+
+.accueil_tuiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+.accueil_tuiles > div {
+    min-width: 20%;
+    background: #eaeaea;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.accueil_tuiles > div > a {
+    font-size: 24px;
+    color: #222;
+}
+
+.accueil_tuiles > div > a:hover, .accueil_tuiles > div > a:active  {
+    font-size: 24px;
+    color: #555;
+}
+
+.accueil-icon {
+    font-size: 32px;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+table thead {
+    font-weight: bold;
+}
+
+thead td, thead tr {
+    border-bottom: 1px solid #777;
+}
+
+table tr, table td {
+    padding: 4px;
+}
+
+a {
+    color: #1856B9;
+}
+
+a:hover, a:active {
+    color: #2F79EE;
+}
+
+.error {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #ff6666;
+}
